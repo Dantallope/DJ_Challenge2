@@ -1,0 +1,25 @@
+:root{
+    --background: #ededf6;
+    --navBar: #31343d;
+    --boxes: #92cccd;
+    
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+}
+img.banner{
+    height: 300px;
+    width: 110%;
+    margin: 0%;
+    padding: 0%
+}
+header{
+    background-color: var(--navBar);
+    padding: 2px;
+}
+header h1{
+    transform: translateX(0px);
+    background-color: var(--boxes);
+    padding-left: 50px;
+}
