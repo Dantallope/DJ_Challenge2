@@ -2,6 +2,7 @@
     --background: #ededf6;
     --navBar: #31343d;
     --boxes: #92cccd;
+    --bodyText:#445876;
     
 }
 html{
@@ -10,7 +11,7 @@ html{
 }
 img.banner{
     height: 300px;
-    width: 110%;
+    width: 100%;
     margin: 0%;
     padding: 0%
 }
@@ -22,4 +23,14 @@ header h1{
     transform: translateX(0px);
     background-color: var(--boxes);
     padding-left: 50px;
+    display: inline;
+}
+nav{
+    display:flex;
+    color:var(--boxes);
+    text-decoration:underline;
+}
+.aboutMe{
+    display: block;
+    color: var(--bodyText);
 }
