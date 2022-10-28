@@ -35,19 +35,57 @@ nav{
     float: right;
     margin-right: 15px;
 }
+
 .aboutMe{
     color: var(--bodyText);
     margin-left: 50px;
+    
+    display: table-row;
 }
 .aboutMe h1{
-    float: left;
     margin-right: 10px;
-    border: 5px solid grey; 
     font-size: 60px;
-  
+    padding-left: 100px;
+    padding-bottom: 50px;
 }
 
 .aboutMe p {
     margin-top: 30px;
-   
+}
+.work{
+    color: var(--bodyText);
+    margin-left: 50px;
+    display: table-row;
+}
+.table{
+    display: table-cell;
+}
+.work h1{
+    margin-right: 10px;
+    font-size: 60px;
+    padding-left: 100px;
+}
+.work div {
+    margin-top: 30px;
+  
+}
+.bigpic{
+    margin-right: 50px;
+    width: 800px;
+}
+.smolpic{
+    width: 400px;
+}
+.contactMe{
+    display: table-row;
+    color: var(--bodyText);
+    margin-left: 50px;
+}
+.contactMe h1{
+    margin-right: 10px;
+    font-size: 60px;
+    padding-left: 100px;
+}
+.contactMe p {
+    margin-top: 30px;
 }
