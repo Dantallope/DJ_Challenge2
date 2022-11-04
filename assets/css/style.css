@@ -71,7 +71,12 @@ nav{
 }
 .work div {
     margin-top: 30px;
+    
   
+}
+#pics{
+    border-left: solid var(--bodyText);
+    padding-left: 10px;
 }
 .bigpic{
     margin-right: 50px;
@@ -99,8 +104,13 @@ nav{
     font-size: 60px;
     padding-left: 100px;
 }
-.contactMe p {
+.contactMe div {
     margin-top: 30px;
+    border-left: solid var(--bodyText);
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
 }
 .pic1text{
     position: relative;
