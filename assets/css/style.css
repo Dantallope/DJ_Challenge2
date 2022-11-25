@@ -14,11 +14,17 @@ img.banner{
     width: 100%;
     margin: 0%;
     margin-top: 30px;
-    padding: 0%
+    padding: 0%;
+}
+.banners{
+    position: relative;
+    width: 100%;
 }
 header{
     background-color: var(--navBar);
     padding: 2px;
+    position: relative;
+    width: 100%;
 }
 header h1{
     font-size: 50px;
@@ -34,6 +40,14 @@ nav{
     text-decoration:underline 5px;
     float: right;
     margin-right: 15px;
+}
+
+.profile{
+    height:200px ;
+    width: 400px;
+    position: absolute;
+    top: 75px;
+    right: 50px;
 }
 
 .aboutMe{
@@ -114,4 +128,64 @@ nav{
 }
 .pic1text{
     position: relative;
+}
+
+@media (max-width: 500px){
+    .table{
+        display: inline;
+    }
+    /*About me section*/
+    .aboutMe{
+        margin-left: 0px;
+        display:inline
+    }
+    .aboutMe h1{
+        margin-right: 0px;
+        font-size: 60px;
+        text-align: center;
+        text-decoration: underline solid var(--bodyText);
+        padding-bottom: 0px;
+    }
+    .aboutMe div{
+        padding-left: 0px;
+        border-left: none;
+    }
+    .aboutMe p {
+        margin-top: 10px;
+    }
+    /*Work section*/
+    .work{
+        color: var(--bodyText);
+        margin-left: 50px;
+        display: table-row;
+    }
+    .work h1{
+        margin-right: 10px;
+        font-size: 60px;
+        padding-left: 100px;
+    }
+    .work div {
+        margin-top: 30px;
+    }
+    #pics{
+        border-left: none;
+        padding-left: 10px;
+    }
+    .bigpic{
+        margin-right: 50px;
+        width: 500px;
+        height: 250px;
+    }
+    .bigpic:hover{
+        opacity: 50%;
+    }
+    .smolpic{
+        width: 500px;
+        height: 200px;
+        display: table-cell;
+    }
+    .smolpic:hover{
+        opacity: 50%;
+    }
+    /*Contact me section*/
 }
